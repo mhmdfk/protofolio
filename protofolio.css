@@ -1,0 +1,11 @@
+.first{
+    background-color: #a3dfdf;
+    
+}
+section{
+    height: 300px;
+}
+.last{
+    background-color: rgb(243, 185, 185);
+    height: 170px;
+}
