@@ -8,6 +8,28 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <section class="first">
         <div class="container text-center pt-5">
             <div class="row align-items-center">
@@ -17,11 +39,12 @@
             </div>
         </div>
     </section>
-    <section>
+
+    <section id="about">
         <div class="container text-center pt-5">
             <div class="row align-items-center justify-content-center">
                 <h2 class="col-12 my-5" style="color: aquamarine;">Hello</h2>
-                <p style="text-indent: 20px; " class="col-6 "> I'm a software engineering student 
+                <p style="text-indent: 20px;" class="col-6"> I'm a software engineering student 
                     with a passion for developing 
                     innovative programs that 
                     expedite the efficiency and 
@@ -31,6 +54,7 @@
             </div>
         </div>        
     </section>
+
     <section>
         <div class="container text-center pt-5">
             <div class="row align-items-center justify-content-center">
@@ -40,51 +64,121 @@
                     in Software Engineer 
                     (still undergraduate - 
                     2021 batch)<br/> 
-                    GPA:4.01 out of 4.2.
+                    GPA:4.02 out of 4.2.
                 </p>
             </div>
         </div>        
     </section>
-    <section>
-        <div class="container  pt-5">
-            <div class="row align-items-start ">
+
+    <section id="skills">
+        <div class="container text-center pt-5">
+            <div class="row align-items-start">
                 <h2 class="text-center my-5">Skills</h2>
-                <ul class="col-12 d-flex flex-wrap ">
+                <ul class="col-12 d-flex flex-wrap" >
                     <li class="col-lg-3 col-12 my-1">Competitive Programming</li>
                     <li class="col-lg-3 col-12 my-1">Leadership</li>
                     <li class="col-lg-3 col-12 my-1">Game Development</li>
-                    <li class="col-lg-3 col-12 my-1">Web Full-stack Development</li>
+                    <li class="col-lg-3 col-12 my-1">Web Development</li>
                     <li class="col-lg-3 col-12 my-1">Time management</li>
                     <li class="col-lg-3 col-12 my-1">Problem solving</li>
                     <li class="col-lg-3 col-12 my-1">Data Analysis</li>
                     <li class="col-lg-3 col-12 my-1">Machine Learning</li>
+                    <li class="col-lg-3 col-12 my-1">C++</li>
+                    <li class="col-lg-3 col-12 my-1">Java</li>
+                    <li class="col-lg-3 col-12 my-1">Python</li>
+                    <li class="col-lg-3 col-12 my-1">JavaScript</li>
+                    <li class="col-lg-3 col-12 my-1">C</li>
+                    <li class="col-lg-3 col-12 my-1">HTML & CSS</li>
+                    <li class="col-lg-3 col-12 my-1">React JS</li>
+                    <li class="col-lg-3 col-12 my-1">Node.js</li>
+                    <li class="col-lg-3 col-12 my-1">Database</li>
+                    <li class="col-lg-3 col-12 my-1">SQL</li>
+                    <li class="col-lg-3 col-12 my-1">NoSQL</li>
+                    <li class="col-lg-3 col-12 my-1">Oracle</li>
+                    <li class="col-lg-3 col-12 my-1">PostgreSQL</li>
                 </ul>
             </div>
         </div>        
     </section>
-    <section>
-        <div class="container  pt-5 mt-5">
-            <div class="row align-items-start ">
-                <h2 class="text-center my-5">Awards and Certifications</h2>
-                <ul class="col-12 ">
-                    <li class="col-12">SHAI-AI Data Analysis and Machine learning Internship</li> 
-                    <li class="col-12">Front-End Development Track by One Million Arab Coders.</li>
-                    <li class="col-12">Full-Stack Develop Track by One Million Arab Coders.</li> 
-                </ul>
+
+    <section id="projects">
+        <div class="container pt-5 mt-5">
+            <div class="row align-items-start">
+                <h2 class="text-center my-5">Projects</h2>
+    
+                <h5>Data Science and Machine Learning Projects</h5>
+    
+                <!-- Project 1 -->
+                <div class="d-flex justify-content-between">
+                    <h6>Diamond Price Prediction</h6>
+                    <span>May 2024 - Jun 2024&ensp;
+                    <a href="https://github.com/mhmdfk/ShAI-Projects" target="_blank">GitHub</a></span>
+                </div>
+                <p>Our team built a regression model predicting diamond prices using specifications like carat weight, cut, color, clarity, and dimensions.</p>
+    
+                <!-- Project 2 -->
+                <div class="d-flex justify-content-between">
+                    <h6>Music Genre Classification</h6>
+                    <span>Jul 2024 - Aug 2024&ensp;
+                    <a href="https://github.com/mhmdfk/ShAI-Projects" target="_blank">GitHub</a></span>
+                </div>
+                <p>Developed a machine learning model to classify music genres using features like tempo, energy, and valence. Employed algorithms including Random Forest and SVM, with data preprocessing, feature engineering, and model evaluation through accuracy and classification reports.</p>
+    
+                <h5 class="mt-5">Full-Stack Projects</h5>
+    
+                <!-- Full-Stack Project 1 -->
+                <div class="d-flex justify-content-between">
+                    <h6>World Capital Quiz Website</h6>
+                    <a href="https://github.com/mhmdfk/World-Capital-Quiz" target="_blank">GitHub</a>
+                </div>
+                <p>This is an interactive quiz website built with <strong>Node.js</strong>, <strong>Express</strong>, and <strong>PostgreSQL</strong>. The game challenges users to test their knowledge of world capitals by prompting them to enter the capital city of a randomly selected country. The application keeps track of the total correct answers until the game ends, showcasing backend development and database management skills.</p>
+    
+                <!-- Full-Stack Project 2 -->
+                <div class="d-flex justify-content-between">
+                    <h6>Dice Game</h6>
+                    <a href="https://mhmdfk.github.io/Dice-project/" target="_blank">Live Demo</a>
+                </div>
+                <p>A simple, fun dice game for two players. Each player clicks on a button to roll their dice, and the player with the higher roll wins. This game was created using <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, and <strong>jQuery</strong>, focusing on front-end interactivity and game mechanics.</p>
+    
+                <!-- Full-Stack Project 3 -->
+                <div class="d-flex justify-content-between">
+                    <h6>Simon Game</h6>
+                    <a href="https://mhmdfk.github.io/Simon-game/" target="_blank">Live Demo</a>
+                </div>
+                <p>A simple Simon memory game made with <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, and <strong>jQuery</strong>. Players must remember and repeat sequences of flashing lights and sounds, with sequences getting progressively more challenging as the game advances.</p>
+    
+                <!-- Full-Stack Project 4 -->
+                <div class="d-flex justify-content-between">
+                    <h6>To-Do List</h6>
+                    <a href="https://github.com/mhmdfk/To-Do-List" target="_blank">GitHub</a>
+                </div>
+                <p>A simple and responsive to-do list application built using <strong>React.js</strong>. Users can add, delete, and manage tasks, with real-time updates to the interface. This project demonstrates React component structure and state management skills.</p>
+    
+                <!-- Full-Stack Project 5 -->
+                <div class="d-flex justify-content-between">
+                    <h6>Secret WebApp</h6>
+                    <a href="https://github.com/mhmdfk/User-secret-project" target="_blank">GitHub</a>
+                </div>
+                <p>A full-stack web application where users can register and log in using their email or Google authentication. Once authenticated, users can anonymously submit secrets, which are securely stored in the database. This project highlights backend development, database interactions, and secure login systems, built using <strong>Node.js</strong>, <strong>Express</strong>, and <strong>PostgreSQL</strong>.</p>
+    
             </div>
-        </div>   
+        </div>
     </section>
-    <section class="last">
+    
+    
+    <section class="last" >
         <div class="container">
-            <footer class="py-3 my-4">
+            <footer class="py-3 my-5">
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                <li class="nav-item"><a href="https://www.linkedin.com/in/mohammad-asad-b24bbb25b/" class="nav-link px-2 text-body-secondary">Linked in</a></li>
-                <li class="nav-item"><a href="mailto:mfaaak@hotmail.com" class="nav-link px-2 text-body-secondary">email</a></li>
+                <li class="nav-item"><a href="https://www.linkedin.com/in/mohammad-asad-b24bbb25b/" class="nav-link px-2 text-body-secondary">LinkedIn</a></li>
+                <li class="nav-item"><a href="mailto:mfaaak@hotmail.com" class="nav-link px-2 text-body-secondary">Email</a></li>
+                <li class="nav-item"><a href="https://github.com/mhmdfk" class="nav-link px-2 text-body-secondary">GitHub</a></li>
             </ul>
             <p class="text-center text-body-secondary">©MFK All Rights Reserved.</p>
             </footer>
         </div>
     </section>
+    
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </html>
